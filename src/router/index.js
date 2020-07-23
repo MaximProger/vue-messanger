@@ -19,6 +19,12 @@ const routes = [
     path: '/chats',
     name: 'chats',
     component: () => import('../components/users/v-users-list.vue')
+  },
+  {
+    path: '/chat',
+    name: 'chat',
+    component: () => import('../components/users/chat/v-user-chat.vue'),
+    props: true
   }
   // {
   //   path: "/about",
